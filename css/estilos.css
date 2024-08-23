@@ -1,0 +1,53 @@
+body {
+    background-color: #E0FFFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+    background-color: darksalmon;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+#nav {
+    background-color:gray;
+    width: 20%;
+    color: blue;
+    margin-right: 5%;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: white;
+}
+#content {
+    background-color: burlywood;
+    width: 74%;
+    color: white;
+    margin-right: auto;
+    h2{
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+    }
+    
+}
+#footer {
+    background-color: khaki;
+    width: 100%;
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 20px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    img{
+        width: 60px;
+    }
+}
+#header, #nav, #content, #footer {
+    float: left;
+/* quando se tem elementos comuns a serem personalizados, pode-se juntar todas as # e personalizar o item que deseja que seja editado */
+}
+#header, #footer {
+    height: 100%;
+}
